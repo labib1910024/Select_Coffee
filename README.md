@@ -1,8 +1,8 @@
-# ☕ Starbucks Landing Page Clone
+# Starbucks Landing Page Clone
 
 A visually engaging and responsive **Starbucks-themed landing page** created using **HTML**, **CSS**, and **JavaScript**. The page includes product image swapping and dynamic background color changes based on user interaction.
 
-## 🌟 Features
+## Features
 
 - Eye-catching layout with modern design
 - Interactive coffee cup image that updates when thumbnails are clicked
@@ -10,15 +10,13 @@ A visually engaging and responsive **Starbucks-themed landing page** created usi
 - Smooth hover animations
 - Fully responsive for various screen sizes (with minor adjustments)
 
-## 📸 Demo
+##  Demo
 
 To see the live preview:
 - Open `index.html` in any modern web browser
 
-## 📁 Project Structure
 
-
-## 🛠️ How It Works
+## How It Works
 
 - The `header` contains a logo and a navigation bar.
 - The main `content` section showcases a coffee cup image and promotional text.
@@ -28,12 +26,6 @@ To see the live preview:
 - A decorative `.circle` background also changes color based on the selection.
 - Social media icons (`.sci`) float vertically on the side.
 
-## 🧠 JavaScript Logic
-
-### `script.js`
-
-```js
-function imageslider(image){
     document.querySelector('.starbucks').src = image;
 }
 
